@@ -1,39 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moje CV</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="cv-container">
-  <div class="left-column">
-    <img src="your-photo.jpg" alt="Your Photo">
-    <h1>Imię Nazwisko</h1>
-    <p>Full Stack Developer</p>
-  </div>
-  <div class="right-column">
-    <h2>About Me</h2>
-    <p>
-      Jestem entuzjastą programowania z pasją do tworzenia gier komputerowych. Obecnie uczę się jako full stack developer i pracuję nad rozwojem swoich umiejętności w obszarze front-endu i back-endu. Moje zainteresowania obejmują również gry komputerowe i chciałbym pracować przy tworzeniu gier, łącząc moją pasję z zawodem.
-    </p>
-    <h2>Education</h2>
-    <p>
-      Kurs Full Stack Developer - Online Academy (obecnie)
-    </p>
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Node.js</li>
-      <li>Git, GitHub</li>
-      <li>Problem Solving</li>
-    </ul>
-    <h2>Contact</h2>
-    <p>Email: example@example.com</p>
-    <p>Phone: 123-456-7890</p>
-  </div>
-</div>
-<a href="your-cv.pdf" download class="download-button">Pobierz CV (PDF)</a>
-</body>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>CV Ivan Rudenko</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <img
+          class="cv-photo"
+          src="./foto.jpg"
+          width="370"
+          alt="Ivan Rudenko Photo"
+        />
+
+        <div class="contact-block">
+          <h2 class="header-secondary">Contacts</h2>
+          <p class="contact-links">
+            <span class="bold"> C: </span>
+            <a class="contact-links" href="tel:+7 777 777 77 77">
+              +48 721 229 003</a
+            >
+            <br />
+            <span class="bold"> E: </span>
+            <a class="contact-links" href="mailto: rudenko.ivan81@gmail.com">
+              rudenko.ivan81@gmail.com
+            </a>
+          </p>
+        </div>
+
+        <div class="tech-skills-block">
+          <h2 class="header-secondary">Tech Skills</h2>
+          <ul class="list-secondary">
+            <li><span class="list-secondary-item">Kodowanie</span></li>
+            <li><span class="list-secondary-item">Windows</span></li>
+            <li><span class="list-secondary-item">MS 365</span></li>
+            <li><span class="list-secondary-item">Figma</span></li>
+            <li><span class="list-secondary-item">HTML</span></li>
+            <li><span class="list-secondary-item">CSS</span></li>
+            <li><span class="list-secondary-item">SCSS/SASS</span></li>
+            <li><span class="list-secondary-item">GIT/GIT Hub</span></li>
+            <li><span class="list-secondary-item">JavaScript(in progress)</span></li>
+        
+          </ul>
+        </div>
+
+        <div class="soft-skills-block">
+          <h2 class="header-secondary">Soft Skills</h2>
+          <ul class="list-secondary">
+            <li><span class="list-secondary-item">Komunikacja</span></li>
+            <li><span class="list-secondary-item">Empatia</span></li>
+            <li><span class="list-secondary-item">Samodyscyplina</span></li>
+            <li><span class="list-secondary-item">Współpraca</span></li>
+          </ul>
+        </div>
+        <div class="soft-skills-block">
+          <h2 class="header-secondary">Language</h2>
+          <ul class="list-secondary">
+            <li><span class="list-secondary-item">Ukraiński - ojczysty</span></li>
+            <li><span class="list-secondary-item">Rosyjski - ojczysty</span></li>
+            <li><span class="list-secondary-item">Polski - zaawansowany</span></li>
+            <li><span class="list-secondary-item">Angielski - średni</span></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="left-side">
+        <div class="main-description">
+          <h2 class="job-title">Curriculum Vitae</h2>
+          <h1>Ivan Rudenko</h1>
+          
+          <p class="description">
+            Szukam możliwości przeniesienia swojej pasji do programowania na poziom zawodowy. 
+            Aktualnie uczestniczę w intensywnym kursie Full Stack Development, który daje mi solidną podstawę w technologiach front-endu i back-endu. 
+            Moje fascynacje grami komputerowymi zainspirowały mnie do chęci uczestnictwa w procesie ich tworzenia w przyszłości. 
+            Pragnę pracować jako programista, aby móc tworzyć innowacyjne rozwiązania i wdrażać kreatywne pomysły.   
+          </p>
+        </div>
+
+        <div class="projects">
+          <h2 class="header-primary">Projects</h2>
+
+          <ol class="list-primary">
+            <li>
+              <a
+                class="list-primary-item"
+                href="https://mariusz-72.github.io/ice-cream-project-group-07/"
+                >Projekt grupowy GoIT/</a
+              ><span class="list-primary-item">........</span>[<span
+                class="list-primary-item"
+                >HTML/SCSS</span
+              >]
+            </li>
+            <li>
+              <a
+                class="list-primary-item"
+                href="https://czinaaz.github.io/goit-markup-hw-08/"
+                >Zadanie zaliczeniowe/</a
+              ><span class="list-primary-item">........</span>[<span
+                class="list-primary-item"
+                >HTML/SCSS/JS</span
+              >]
+            </li>  
+          </ol>
+        </div>
+
+        <div>
+          <h2 class="header-primary">Work Experience</h2>
+
+        <div>
+          <h3 class="job-name">
+            Sushi master <span class="highlight">Ichiban Sushi</span>
+          </h3>
+
+          <p class="job-date">Październik 2019 - Sierpień 2023 | Polska</p>
+
+          <ul class="job-list">
+            
+         
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="job-name">
+            Sprzedawca <span class="highlight">Nike</span>
+          </h3>
+
+          <p class="job-date">Wrzesień 2016 - Kwiecień 2019 | Ukraina</p>
+
+          <ul class="job-list">
+          
+          </ul>
+        </div>
+
+        <div>
+          <h2>Education</h2>
+          <div>
+            <h3 class="job-name">
+              <span class="highlight">Kyiv National University of Trade and Economics</span>
+            </h3>
+            <h4>Commodity Science and Trade Entrepreneurship</h4>
+            <h5>Licencjat</h5>
+            <p class="job-date">Wrzesień 2015 - Czerwiec 2019 | Ukraina</p>
+          </div>
+          <div>
+            <h3 class="job-name">
+              <span class="highlight">Vincent Pol University</span>
+            </h3>
+            <h4>Organizacja i zarządzanie w turystyce i hotelarstwie</h4>
+            <h5>Magister</h5>
+            <p class="job-date">Październik 2019 - Lipiec 2021 | Polska</p>
+          </div>
+        </div>
+        <div>
+          <h2>Kursy</h2>
+          <div>
+            <h3 class="job-name">
+              <span class="highlight">Fullstack Developer</span>
+            </h3>
+            <h4>HTML/CSS/JavaScript/Node.js/React</h4>
+            <h5></h5>
+            <p class="job-date">Maj 2023 - obecnie | Polska</p>
+          </div>
+          
+      </main>
+    </div>
+    <footer>
+    
+    </footer>
+  </body>
 </html>
