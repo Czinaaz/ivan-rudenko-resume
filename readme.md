@@ -1,0 +1,1 @@
+https://czinaaz.github.io/ivan-rudenko-resume/
