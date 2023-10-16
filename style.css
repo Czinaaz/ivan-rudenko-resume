@@ -20,7 +20,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 
 .header-left {
@@ -31,6 +31,7 @@ header {
 .header-right {
   margin-left: auto;
   padding-inline: 20px;
+  margin-right: 25px;
 }
 .header-right p {
   padding: 5px 0px;
@@ -54,9 +55,10 @@ header {
 }
 
 img {
-  width: 200px; /* Dostosuj rozmiar zdjęcia według potrzeb */
+  width: 250px; /* Dostosuj rozmiar zdjęcia według potrzeb */
   height: auto; /* Dostosuj rozmiar zdjęcia według potrzeb */
   border-radius: 50%;
+  margin-left: 75px;
   
 }
 
@@ -81,6 +83,7 @@ p {
   padding: 20px;
   margin: 20px;
   border: 1px solid #ddd;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
