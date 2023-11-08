@@ -78,6 +78,10 @@ p {
   text-decoration: none;
 }
 
+.about {
+  color: black;
+}
+
 .section {
   background-color: #fff;
   padding: 20px;
@@ -107,7 +111,8 @@ p {
 }
 
 h3 {
-  color: #555;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul {
