@@ -80,6 +80,7 @@ header {
 
 .header-title p {
   color: #222;
+  font-size: 24px;
   margin: 5px 0;
   padding-bottom: 30px;
 }
@@ -122,9 +123,12 @@ p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.projects {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .projects a {
   color: black;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -157,6 +161,12 @@ ul {
 }
 li {
   list-style: none;
+  
+}
+
+.listes li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .main-footer-icon-list {
