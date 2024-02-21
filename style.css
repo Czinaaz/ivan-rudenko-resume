@@ -256,3 +256,8 @@ header {
   list-style: disc;
 }
 
+.portfolio {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
