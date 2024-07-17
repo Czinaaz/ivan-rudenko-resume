@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto";
   background-color: #ffffff;
   margin: auto;
   border: 1px solid #ddd;
@@ -138,7 +138,7 @@ header {
 
 .main-footer-icon-list {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .main-footer-icon-list-item {
   width: 35px;
@@ -170,13 +170,12 @@ header {
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
   font-size: 18px;
   width: 95%;
   color: black;
+  /* margin: 0 5% 0 5%; */
+  text-align: justify; /* Dodaj tę linię, aby wyrównać tekst do lewej i prawej strony */
 }
 
 /* Projects */
@@ -260,4 +259,34 @@ header {
   text-decoration: none;
   font-size: 17px;
   font-weight: 600;
+  
+}
+
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+/* .projects-title {
+  margin: 0 5% 0 5%;
+} */
+
+.project-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.project-bracket {
+  margin-left: 5px;
+}
+
+.fill {
+  flex-grow: 1;
+  border-bottom: 1px dotted #000;
+  margin: 0 5px;
+  height: 1px;
+  align-self: center;
 }
