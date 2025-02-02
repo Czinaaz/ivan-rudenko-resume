@@ -93,6 +93,45 @@ section {
   padding-right: 10px;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; 
+  }
+
+  .header-content {
+    flex-direction: column; 
+  }
+
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info_contact {
+    margin-top: 10%;
+    width: 90%; 
+    justify-content: center; 
+  }
+
+  .profile-pic {
+    width: 100%; 
+  }
+
+  .contact div {
+    width: 70%; 
+    justify-content: start; 
+  }
+
+  .contact {
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+  }
+}
+
+
 h2 {
   font-size: 1.75rem;
   color: #1e293b;
@@ -183,3 +222,5 @@ footer {
   margin-right: 8px;
   vertical-align: middle;
 }
+
+
