@@ -49,13 +49,20 @@ h1 {
 }
 
 .contact-container {
-  width: 60%;
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 
+
+.info_contact {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 30px;
+}
 
 .contact {
   display: flex;
