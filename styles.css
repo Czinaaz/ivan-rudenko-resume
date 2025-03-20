@@ -44,7 +44,7 @@ h1 {
 .profile-pic {
   width: 50%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
 }
 
@@ -163,6 +163,11 @@ ul {
   font-size: 0.9rem;
 }
 
+.other-skills li {
+  background: #eef7fd;
+  color: #0369a1;
+}
+
 .project {
   margin-bottom: 15px;
 }
@@ -223,4 +228,14 @@ footer {
   vertical-align: middle;
 }
 
+.rodo {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
 
+.rodo p {
+  text-align: center;
+  font-size: 10px;
+}
